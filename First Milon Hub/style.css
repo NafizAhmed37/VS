@@ -1,0 +1,175 @@
+*
+{
+    box-sizing: border-box; 
+}
+.first-h:hover
+{ 
+    color: teal;
+  }
+
+  .center
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .profile
+  {
+      color: teal;
+      font-size: large;
+  }
+  .profile:hover
+  {
+      color: rgb(15, 14, 14);
+      font-family:cursive ;
+  }
+  table 
+  {
+      text-align: center;
+      border-collapse: collapse;
+      border: 5px solid black;
+}
+th
+{
+    width: 180px;
+border: 2px solid red;
+font-size: 15px;
+font-family: Times New Roman;
+background-color:rgba(14, 15, 14, 0.527);
+color: rgb(47, 255, 227);
+}
+td
+{
+    height: 50px;
+     cursor:pointer;
+     font-size: 10px;
+      font-weight:900; 
+     /* cursor:progress;  */
+border: 1px solid rgb(0, 128, 111);
+}
+
+tr:hover
+{
+    background-color: black;
+    color: whitesmoke;
+}
+
+th:hover
+{
+    background-color: teal;
+    color: tomato;
+    text-shadow: 5px 5px rgba(255, 0, 43, 0.164);
+}
+.age
+{
+  margin-right:40px; 
+}
+
+.Age1
+{
+    margin-left:8px; 
+    
+}
+.reg
+{
+    display: inline; 
+    text-align: center;
+    color:salmon ;
+    background-color: black;
+    text-transform: capitalize;
+    border: 5px ridge coral ; 
+    
+}
+.quali
+{
+    display: inline;
+    text-shadow: 5px 5px powderblue; 
+}
+.contact
+{
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+
+.Own_detail
+{
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    margin-left: 10%;
+    max-width:500px;
+    height:200px;
+    overflow: scroll;
+    text-align: justify;
+    text-indent: 70px;
+    padding: 40px;
+
+    background-image:linear-gradient(rgba(119, 128, 0, 0.178),rgba(0, 38, 255, 0.171)), url("back.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+    background-attachment:scroll;
+    float: left; 
+    opacity: 0.5;
+}
+
+.Own_detail:hover
+{
+    opacity: 1;
+}
+.Own
+{
+        font-family: 'Dancing Script', cursive;
+        margin: auto;
+        margin-left: 100px;
+        max-width:500px;
+        height:200px;
+        overflow: scroll;
+        text-align: justify;
+        text-indent: 70px;
+        padding: 40px;
+
+        background-image:linear-gradient(rgba(119, 128, 0, 0.178),rgba(0, 38, 255, 0.171)), url("back.jpg"); 
+        background-repeat: no-repeat;
+        background-size: 100%;
+        /* background-position: center; */
+        background-attachment:scroll;
+        float: left; 
+        opacity: 0.5;
+}
+
+.Own:hover
+{
+    opacity: 1;
+}
+
+.toltip
+{
+    text-align: center;
+    /* display: inline; */
+    /* float: left; */
+    text-decoration: none;
+}
+
+#Github
+{
+  border: 5px coral double;
+  background-color: cornsilk;
+  text-transform: capitalize;
+  color:navy;
+  font-style: italic;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.toltip:hover #Github
+{
+    visibility: visible;
+}
+
+.END
+{
+    color: brown;
+}

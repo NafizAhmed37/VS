@@ -1,0 +1,284 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Facebook all down below css */
+.f1
+{
+    height: 340px;
+    width: 400px;
+    background-color:#fff;
+    text-align: center;
+    padding: 10px;
+    margin-left:20%;
+    /* border: 1px rgb(212, 197, 197) solid; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px  rgb(161, 157, 157)
+    
+    
+}
+
+.backgroud{
+    margin-top: 10%;
+    float: right;
+    position: relative;
+    bottom: 600px;
+    right: 100px;
+}
+ ::placeholder
+{
+    font-size: 18px;
+    font-style: bold;
+} 
+input
+{
+    height: 55px;
+    border-radius: 3px;
+    margin-top: 3%;
+    width: 100%; 
+    outline: none;
+    border: 1px rgb(194, 189, 189) solid;
+    padding: 15px;
+    font-size: 18px; 
+    font-style: bold;
+   
+}
+input:focus
+{
+    border: 2px #3b5998 solid;
+    box-shadow: 0 0 5px rgb(12, 142, 179);
+}
+
+.b1
+{
+    color: whitesmoke;
+    height: 48px;
+    border-radius: 6px;
+    margin-top: 3%;
+    width: 100%; 
+    outline: none;
+    border: 1px rgb(194, 189, 189) solid;
+    padding: 10px;
+    font-size: 19px; 
+    background-color: #1877f2;
+    transition: 0.4s;
+}
+
+.b1:hover
+{
+    background-color: #146bdd;
+   
+}
+
+a
+{
+    font-family:inherit;
+    margin: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    padding: 10px;
+    font-size:14px;
+    
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.b2
+{
+    color: whitesmoke;
+    height: 48px;
+    border-radius: 6px;
+    margin-top: 3%;
+    width: 55%; 
+    outline: none;
+    border: 1px rgb(194, 189, 189) solid;
+    padding: 5px;
+    font-size: 17px; 
+    background-color:rgb(70, 197, 31);
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+.b2:hover
+{
+    background-color: rgb(60, 138, 36);
+   
+}
+
+.para
+{
+   margin-left:133px;
+}
+
+.A2
+{
+    font-weight: 900;
+}
+
+.A2:hover
+{
+    text-decoration: underline;
+}
+
+.container
+{
+    margin-left:15%; 
+    margin-top: 5%;
+    padding: 10px;
+    display: flex;
+    width: 580px;
+    height: 500px;
+    background-color: greenyellow;
+    /* justify-content: space-between; */
+    /* justify-content: space-around;  */
+    justify-content: space-evenly;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* border: 0.1px rgb(212, 197, 197) solid; */
+    border-radius: 10px;
+    background-color:#fff;
+    
+}
+
+
+/*Side BOXES.......  */
+
+
+.container:hover
+{
+   box-shadow:1px 1px 5px 5px  rgb(161, 157, 157); 
+}
+
+.div-0
+{
+  
+height: 210px;
+width: 160px;
+background-color: #fff;
+border-radius: 8px;
+border: 0.1px rgb(212, 197, 197) solid;
+
+}
+
+.div-0:hover
+{
+   box-shadow:1px 1px 5px 5px  rgb(161, 157, 157); 
+   transform:scale(1.1);
+}
+
+
+.div-1img
+{
+    background-image: url("milon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    /* width: 160px; */
+    border-radius: 1px;
+}
+
+
+.div-2img
+{
+    background-image: url("nafiz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 4px;
+}
+
+
+.div-3img
+{
+    background-image: url("Lovely.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 4px;
+}
+
+.div-4img
+{
+    background-image: url("akash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 4px;
+}
+
+.div-5img
+{
+    background-image: url("mahim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 4px;
+}
+
+.div-1
+{
+  
+height: 210px;
+width: 160px;
+background-color: #f5f6f7;
+border-radius: 8px;
+border: 0.1px rgb(212, 197, 197) solid;
+
+}
+
+.div-1:hover
+{
+   box-shadow:1px 1px 5px 5px  rgb(161, 157, 157); 
+   transform:scale(1.1);
+}
+.div-6img
+{
+    background-image:  url("plus.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 0px auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    
+}
+
+.p0
+{
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: gray;
+    font-family: inherit;
+}
+
+.p1
+{
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1877f2;
+    font-family: inherit;
+    margin-top: 45px;
+    display: block;
+    height: 53px;
+    background-color:#fff; 
+}
+
+
+
+

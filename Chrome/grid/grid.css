@@ -1,0 +1,186 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: wheat;
+    height: 400px;
+    width: 900px;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.div-1
+{
+    border: tomato solid 2px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+
+.first
+{
+    grid-column: 1 / span 2;   
+}
+.second
+{
+    grid-column: 3 / span 2;
+}
+
+.third
+{
+    grid-column: 1 / span 4;
+}
+
+.four
+{
+    grid-column: 1 / span 3;
+}
+
+h1
+{
+    text-align: center;
+}
+
+
+/* Grid Box 01 END */
+
+
+.container2
+{
+    display: grid;
+    grid-template-columns:auto auto ;
+    width: 400px;
+    height: 480px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: #333436;
+    padding: 10px;
+}
+
+.div-2
+{
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #242527;
+}
+
+.six
+{
+    height: 100px;
+    width:180px ;
+    
+    
+}
+
+.eight
+{
+    grid-column: 1 /span 2;
+    height: 250px;
+    margin-top: 5px;
+    grid-template-rows: ;
+}
+
+.nine
+{
+    height: 70px;
+    grid-column: 1 /span 2;
+}
+
+.div-3
+{
+    /* border: tomato 2px solid; */
+    height: 39px;
+    margin:10px;
+    border-radius: 10px;
+}
+.pic
+{
+    margin-left:80px;
+    margin-top: 30px;
+}
+
+img
+{
+    height: 25px;
+    width: 25px;
+}
+
+.z
+{
+    color: whitesmoke;
+    margin-left: -16px;
+}
+
+.x
+{
+    color: whitesmoke;
+    margin-left: -12px;
+}
+
+.div-3
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 3px;
+}
+
+.psa
+{
+    margin-top: 3px;
+    margin-right: 90px;
+    grid-column: 2 /span 4;
+    color: white;
+    font-size: 15px;
+}
+
+.psa1
+{
+    margin-top: 3px;
+    margin-right: -10px;
+    grid-column: 2 /span 4;
+    color: white;
+    font-size: 15px;
+}
+
+.psa2
+{
+    margin-top: 3px;
+    margin-left: 18px;
+    grid-column: 2 /span 4;
+    color: white;
+    font-size: 15px;
+}
+
+.psa3
+{
+    margin-top: 3px;
+    margin-right: 10px;
+    grid-column: 2 /span 4;
+    color: white;
+    font-size: 15px;
+}
+
+.nine
+{
+    display: flex;
+    background-color:#242527 ;
+    padding: 22px;
+}
+
+.picsa2
+{
+    margin-left: -10px;
+}
+
+.psa33
+{
+    margin-left: 35px;
+}

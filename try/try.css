@@ -1,0 +1,16 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px; 
+}
+
+div
+{
+    border: 5px aqua solid;
+    height: 500px;
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 90px;
+}
