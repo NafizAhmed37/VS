@@ -91,7 +91,7 @@ header li
 .container
 {
  
-   background-color: tomato;
+   background-color:#242526;
    display: grid;
    grid-template-areas: 
    'Facebook Facebook Facebook Facebook'
@@ -116,7 +116,7 @@ header li
     margin-top: 5px;
     margin-bottom:5px ;
     text-align: center;
-    
+    color: whitesmoke;
 }
 
 .item-2
@@ -127,7 +127,7 @@ header li
     margin-top: 5px;
     margin-bottom:5px ;
     text-align: center;
-    
+    color: whitesmoke;
 }
 
 .item-3
@@ -138,6 +138,7 @@ header li
     margin-top: 5px;
     margin-bottom:5px ;
     text-align: center;
+    color: whitesmoke;
    
 }
 
@@ -149,6 +150,7 @@ header li
     margin-top: 5px;
     margin-bottom:5px ;
     text-align: center;
+    color: whitesmoke;
     
 }
 
@@ -183,4 +185,5 @@ header li
   border-radius: 50px;
   border: 2px black solid;
   margin-top:5px ;
+  
 }

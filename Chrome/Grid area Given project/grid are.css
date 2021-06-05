@@ -1,0 +1,145 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.body-div
+{
+    background-color:lightcyan;
+    width: 100%;
+    height: 550px;
+    display: grid;
+    padding: 15px;
+    grid-template-areas: 
+    'a a a'
+    'b b b'
+    'c c c'
+    ;
+}
+
+.first
+{
+    grid-area: a;
+    margin-top: 20px;
+    border: black 3px solid;
+    height: 70px;
+    background-color: cyan;
+}
+
+.first h3
+{
+    text-align: center;
+    color: black;
+}
+
+.second
+{
+    grid-area: b;
+    margin-top: 10px;
+    height: 240px;
+    padding: 5px;
+    background-color: teal;
+    display: grid;
+    grid-template-areas:
+    
+    'd e'
+    ;
+}
+
+.second-1
+{
+ grid-area: d;
+ margin-right: 5px;
+ grid-template-areas:
+    
+    'f'
+    'g'
+    'h'
+    ;
+}
+
+.second-1-a
+{
+  grid-area: f;
+  border: black 3px solid;
+  height:50px ;
+  padding: 15px;
+}
+
+.second-1-b
+{
+    grid-area: g;
+    border: black 3px solid;
+    height:50px ;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.second-1-c
+{
+    grid-area: h;
+    border: black 3px solid;
+    height:50px ;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.second-2
+{
+    grid-area: e;
+    margin-left: 5px;
+    display: grid;
+    grid-template-areas: 
+    'i'
+    'j'
+    ;
+}
+
+.second-2-a
+{
+    grid-area: i;
+    border: black 3px solid;
+    height:50px ;
+    padding: 15px;
+}
+
+.second-2-b
+{
+    grid-area: j;
+    border: black 3px solid;
+    height:50px ;
+    margin-top: -85px;
+    padding: 15px;
+}
+
+.third
+{
+    grid-area: c;
+    margin-top: 10px;
+    height: 150px;
+    margin-bottom: 55px;
+    background-color: tomato;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 
+
+    'k l'
+    ;
+}
+
+.third-1
+{
+    grid-area: k;
+    border: black 3px solid;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+.third-2
+{
+    grid-area: l;
+    border: black 3px solid;
+    margin-left: 5px;
+    padding: 15px;
+}
