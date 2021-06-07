@@ -18,6 +18,8 @@ border-bottom: 5px solid tomato ;
 background-color:#242526 ;
 border-radius: 20px;
 margin-top: 5px;
+display: flex;
+justify-content: space-between;
 }
 
 nav
@@ -25,6 +27,7 @@ nav
     display: flex;
     justify-content: space-between;
     height: 50px;
+    
 }
 
 .mice
@@ -62,6 +65,8 @@ header ul
     display: flex;
     justify-content: space-between;
     width: 300px;
+    margin-left: 80px;
+    margin-top: 5px;
 }
 
 header li
@@ -69,11 +74,12 @@ header li
     list-style: none;
     /* margin-left: 50px; */
     color: #B9CEE5;
+   
 }
 
 .log button
 {
-    margin-right: 20px;
+    margin-left: 190px;
     background-color: orangered;
     height: 25px;
     width: 50px;
@@ -90,7 +96,7 @@ header li
 
 .container
 {
- 
+   
    background-color:#242526;
    display: grid;
    grid-template-areas: 
@@ -106,12 +112,13 @@ header li
    height: 500px;
    margin-top: 20px;
    padding: 10px;
+   float: left;
 }
 
 .item-1
 {
     grid-area: Facebook;
-    border: greenyellow 3px solid;
+    border: rgb(87, 62, 62) 3px solid;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom:5px ;
@@ -122,7 +129,7 @@ header li
 .item-2
 {
     grid-area: Instagram;
-    border: greenyellow 3px solid;
+    border: rgb(87, 62, 62) 3px solid;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom:5px ;
@@ -133,7 +140,7 @@ header li
 .item-3
 {
     grid-area: Discord;
-    border: greenyellow 3px solid;
+    border: rgb(87, 62, 62) 3px solid;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom:5px ;
@@ -145,7 +152,7 @@ header li
 .item-4
 {
     grid-area: Linkdin;
-    border: greenyellow 3px solid;
+    border: rgb(87, 62, 62) 3px solid;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom:5px ;
@@ -187,3 +194,233 @@ header li
   margin-top:5px ;
   
 }
+
+.container2
+{
+   background-color:#242526;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   margin-right: 20px;
+   border-radius: 10px;
+   width: 25%;
+   height: auto;
+   margin-top: 20px;
+   padding: 10px;
+}
+
+.item-1-a
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom:5px ;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.item-1-a-0
+{
+    height:100px;
+    width: 290px;
+    border:rgb(87, 83, 83) 3px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.spim
+{
+    height: 100%;
+    width: 50%;
+    border:rgb(76, 72, 72) 3px solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.spim img
+{
+    height: 90%;
+    width: 100%;
+    border:rgb(42, 39, 39) 3px solid;
+}
+
+.sptext
+{
+    height: 100%;
+    width: 45%;
+    border:rgb(76, 72, 72) 3px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+.sptext span
+{
+    font-size: 10px;
+}
+
+.item-2-a
+{
+    grid-area: Instagram;
+    border: greenyellow 3px solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom:5px ;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;   
+    padding: 10px;
+}
+
+.item-2-a h3
+{
+    margin: 0px auto;
+    width: 100%;
+}
+
+.ban
+{
+   width: 95%;
+   height:400px;
+   border:rgb(63, 58, 58) 3px solid;
+   margin: 0px auto;
+   margin-top: 5px;
+   border-radius: 5px;
+}
+
+.ban img
+{
+    height: 80%;
+    width: 100%;
+    border:rgb(42, 39, 39) 3px solid;
+}
+
+.ban p
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+
+hr
+{
+    width: 80%;
+    margin:0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-body
+{
+    float: left;
+    border: 3px solid black;
+    height: auto;
+    width: 500px;
+    margin-top: 20px;
+    margin-right: 65px;
+    margin-left: 65px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow:auto;
+}
+
+.div-flex
+{
+    height: auto;
+    width: 450px;
+    display: flex;
+    justify-content:first baseline;	
+    border: 3px solid red;
+    padding: 5px;
+    margin: 0px auto;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border-radius: 5px;
+}
+
+.hea
+{
+    width: 100%;
+    height:80px;
+    border: royalblue 3px solid;
+    margin: 0px auto;
+}
+
+.hea h2
+{
+    color: salmon;
+    text-align: center;
+}
+
+.introduction
+{
+        width:123px;
+		height:200px;
+		background-color:rgb(251, 229, 214);
+		margin:10px ;
+        align-self: center;
+        text-align: center;
+        border-radius: 10px;
+}
+
+.card00
+{
+    width:48%;
+    height:400px;
+    background-color:rgb(255, 214, 187);
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+.details
+{
+    width:100%;
+    height:100px;
+    background-color:rgb(216, 196, 183);
+    text-align: center;
+    border-radius: 5px;
+    margin:5px 10px 5px 10px ;
+}
+
+.Footer
+{
+    width:100%;
+    height:50px;
+    background-color:rgb(168, 102, 58);
+    text-align: center;
+    border-radius: 5px;
+    margin:5px 10px 5px 10px ;
+}
+
+.div-body h1
+{
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    color: gray;
+}
+
+.Video
+{
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:20px ;
+    height: 250px;
+    width: 300px;
+    background-color:chocolate;
+    text-align: center;
+    padding: 10px;
+}
+
